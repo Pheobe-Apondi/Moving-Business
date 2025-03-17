@@ -1,0 +1,262 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    margin-bottom: 60px;
+}
+
+
+.header-section{
+
+
+}
+
+.header-section-FreeConsultation{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 12px;
+    
+
+}
+#verified{
+    margin-top: 0;
+}
+#free-Estimate{
+    color: white;
+}
+
+.contactInfo{
+    display: flex;
+    gap: 10px;
+   padding-left: 200px;
+   gap: 300px;
+   /* margin: 20px 300px; */
+    font-size: 18px;
+    border: solid 2px goldenrod;
+  
+}
+
+.contactInfo-email{
+
+    display: flex;
+    gap: 30px;
+}
+
+#emailIcon{
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+.contact-Telephone{
+     display: flex;
+     gap: 30px;
+
+}
+/* #phoneIcon{
+    font-size: 40px;
+    margin-left: -90px;
+    margin-bottom: 100px;
+} */
+
+.navbar{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    color: orange;
+}
+.hero-section{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(https://premierevanlines.com/wp-content/uploads/2022/02/Moving-out-Checklist-copy.jpg);
+    width: 100vw;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* filter: brightness(50%); */
+
+    
+    
+}
+
+.hero-content{
+   justify-items: center;
+   padding-top: 100px;
+   font-size: 30px;
+   color: rgb(255, 255, 255);
+
+}
+
+#hero-heading{
+    width: 50%;
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+}
+
+.hero-sectionButton{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 20px;
+
+}
+
+.aboutUs{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    
+   
+
+}
+
+.aboutUs-leftSide{
+    margin-left: 30px;
+
+}
+
+#aboutUs-image{
+    height: 60vh;
+    
+ 
+}
+#aboutUs-Link {
+    color: orange;
+
+
+}
+#aboutUs-heading{
+   border: solid 2px purple;
+   width: 55%;
+   font-size: 45px;
+
+}
+#aboutUs-rightImage{
+    
+    height: 40vh;
+
+}
+
+.aboutUs-est{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.aboutUs-frameImage{
+   
+}
+
+.ipsumlogos{
+    display: flex;
+    justify-content: center;
+    margin: 150px 30px;
+    gap: 200px;
+}
+.services-Heading{
+    text-align: center;
+}
+.servicesCatalogue{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.catalogue-Packing,.catalogue-Storage, .catalogue-Transport, .catalogue-Insurance{
+     background-color: blue;
+    width: 300px;
+    height: 450px;
+    padding: 5px 40px;
+}
+
+#packingImage{
+    width: 100px;
+   margin-left: 95px;
+   margin-top: 20px;
+}
+#cat-packing, #cat-insurance, #cat-transport , #cat-storage{
+      text-align: center;
+      margin: 40px auto;
+
+}
+#insurance-button, #packing-button, #storage-button, #transport-button {
+    color: orange;
+    padding-top: 80px;
+    
+    margin-left: 60px;
+    font-size: 25px;
+    border: none;
+    
+}
+#transportImage{
+   width: 100px;
+   margin-top: 20px;
+   margin-left: 95px;
+
+}
+#storageImage{
+    font-size: 40px;
+    background-color: orange;
+    padding: 30px;
+    border-radius: 70px;
+    margin-top: 20px;
+    margin-left: 95px;
+}
+#insuranceImage{
+    width: 70px;
+    background-color:orange;
+    padding: 20px;
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-left: 95px;
+
+   
+
+}
+
+.our-Clients{
+    display: flex;
+    gap: 40px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.chooseRiaad{
+    display: flex;
+}
+
+
+@media only screen and (min-width:375px) {
+    .header-section-FreeConsultation{
+        padding: 5px;
+        
+    
+    }
+   
+    
+      
+    }
+
+@media only screen and (min-width:768px) {
+    .header-section-FreeConsultation{
+   
+        
+    
+    }
+
+    
+      
+    }
+
+ 
