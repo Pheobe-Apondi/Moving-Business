@@ -127,25 +127,28 @@
      </div>
     <div class="our-Clients">
              <div class="our-Clients-heading">
-                   <h1>Helping You Every Step of the Way.</h1>
+                   <h1 id="our-clientsHeading">Helping You Every Step of the Way.</h1>
              </div>
-              <div class="our-Clients-video">
-                      <p>Click on this video to check how we work with Our Clients.</p>
-             <video></video>
+              <div class="ourClients-video">
+                      <p id="videodescription">Click on this video to check how we work with Our Clients.</p>
+             <img src="https://media.istockphoto.com/id/1342056283/photo/young-man-moving-into-a-new-apartment.jpg?s=612x612&w=0&k=20&c=J3gGu9aBK1KbY_oEtXxxvycdjMyIBa3Ih1Du7h4D4rk=" id="clientsImage">
              </div>
+              
     </div>
     <div class="chooseRiaad">
         <div class="chooseRiaad-Image">
-                  <img src="">
-                  <span>
+                  <img src="https://media.istockphoto.com/id/1342056283/photo/young-man-moving-into-a-new-apartment.jpg?s=612x612&w=0&k=20&c=J3gGu9aBK1KbY_oEtXxxvycdjMyIBa3Ih1Du7h4D4rk="  id="riaadImage">
+                  <div id="chooseRiaad-content">
                      <p>Riaad is  Verified and Trusted Moving Company.</p>
                      <a href="#">Get Started</a>
-                 </span>
-                  <p>Do you have any question?</p>
-                 <i class="fa-solid fa-circle-chevron-right"></i>
+                  </div>
+                  <div  class="riaadQuestion">
+                    <p><b>Do you have any question?</b></p>
+                    <i class="fa-solid fa-circle-chevron-right" id="chooseArrow"></i>
+                 </div>
         </div>
         <div>
-               <a href="#">WHY CHOOSE RIAAD</a>
+               <a href="#" id="riaadlink">WHY CHOOSE RIAAD</a>
                <h1>We are Leading in Moving Business.</h1>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 <br> Voluptatum eos nam aspernatur commodi perspiciatis cum dolore doloribus 
@@ -153,13 +156,13 @@
                 <br>tenetur laboriosam illum obcaecati, sapiente, accusantium laudantium reiciendis!</p>
              <div class="chooseRiaad-statistics">
                 <i class="fa-solid fa-circle-check" style="color: #FFD43B;"></i>
-                <span>Helping over 250,000 movers in USA</span>
-                <br>
+                <span><b>Helping over 250,000 movers in USA</b></span>
+                <br><br><br><br>
                 <i class="fa-solid fa-circle-check" style="color: #FFD43B;"></i>
-                <span>Save 70% off the cost of your moving</span>
-                <br>
+                <span> <b>Save 70% off the cost of your moving</b></span>
+                <br><br><br><br>
                 <i class="fa-solid fa-circle-check" style="color: #FFD43B;"></i>
-               <span>Book survey at a time that suits you</span>
+               <span><b>Book survey at a time that suits you</b></span>
     
             </div>
         </div>
@@ -171,44 +174,48 @@
         <i class="fa-solid fa-play" style="color: #e9eaec;" id="playIcon"></i>
     </div>
     <section>
-    <form class="freeQuote">
-       <div class="freeQuote-bookNow">
-          <a href="#" id="freeQuote-link">Book Us Now</a>
-          <h1>Request a Free Quote Today</h1>
-       </div>
-        <div class="freeQuote-fillForm">
-            <div class="freeQuote-dateLabel">
-                 
-                    <label for="moving-type">Moving Type*</label>
-                    <input type="text" id="moving-type" placeholder="local">
-                 
-                 
-                    <label for="date">Date*</label>
-                    <input type="date" id="date" placeholder="date">
-                 
-            </div>
-            <div class="freeQuote-home-sizelabel"> 
-                 
-                     <label for="from">From*</label>
-                    <input type="text" id="from" placeholder="city,state">
-
-                
-                
-                    <label for="home-size">Home Size*</label>
-                    <input type="text" id= "home-size" placeholder="0">
-             
-            
-                <div class="freeQuote-toLabel">
-                     <label for="to">To*</label>
-                     <input type="text" id="location" placeholder="city,state">
-                     <button>SEND REQUEST</button>
-              </div>
 
 
+        <section class="contact">
+        <div class="video-container">
+            <button>
+        
+                 <i class="fa-solid fa-play"></i>
+            </button>
         </div>
-
-    </form>
-</section>
+        <div class="yellow-container">
+            <div class="left-section">
+                <p> BOOK US NOW</p>
+            <h2>Request a <br> <span> Free Quote </span><br> <span>Today</span></h2>
+            </div>
+            <div class="right-section">
+            <form class="quote-form">
+                <div class="form-group">
+                <label for="moving-type">Moving Type*</label>
+                <input type="text" id="moving-type" placeholder="local" >
+                </div>
+                <div class="form-group">
+                <label for="date">Date*</label>
+                <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                <label for="from">From*</label>
+                <input type="text" id="from" placeholder="city, state" >
+                </div>
+                <div class="form-group">
+                <label for="home-size">Home Size*</label>
+                <input type="number" id="home-size" placeholder="0" >
+                </div>
+                <div class="form-group">
+                <label for="to">To*</label>
+                <input type="text" id="to" placeholder="city, state" >
+                </div>
+                <button type="submit" class="submit-btn">Send Request</button>
+            </form>
+        </div>
+    </section>
+ 
+  </section>
 
      <div class="testimonials">
           <div class="testimonials-heading">

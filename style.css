@@ -35,7 +35,7 @@ body{
    gap: 300px;
    /* margin: 20px 300px; */
     font-size: 18px;
-    border: solid 2px goldenrod;
+
   
 }
 
@@ -174,10 +174,15 @@ body{
 }
 
 .catalogue-Packing,.catalogue-Storage, .catalogue-Transport, .catalogue-Insurance{
-     background-color: blue;
+     
     width: 300px;
     height: 450px;
     padding: 5px 40px;
+}
+
+.catalogue-Storage{
+    background-color: blue;
+    color: white;
 }
 
 #packingImage{
@@ -193,11 +198,16 @@ body{
 #insurance-button, #packing-button, #storage-button, #transport-button {
     color: orange;
     padding-top: 80px;
-    
+    background-color: none;
     margin-left: 60px;
     font-size: 25px;
     border: none;
     
+}
+
+#storage-button{
+    background-color: blue;
+    color: white;
 }
 #transportImage{
    width: 100px;
@@ -227,9 +237,34 @@ body{
 
 .our-Clients{
     display: flex;
-    gap: 40px;
-    margin-top: 80px;
+    gap: 100px;
+    margin-top: 0px;
     margin-left: 80px;
+    margin-bottom: 100px;
+
+}
+#our-clientsHeading{
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 140px;
+
+}
+
+#videodescription{
+   text-align: center;
+   margin-top: 100px;
+   width: 300px;
+
+}
+.ourClients-video{
+    display: flex;
+    gap: 20px;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+
+#clientsImage{
+    width: 40%;
 }
 
 .chooseRiaad{
@@ -238,68 +273,145 @@ body{
     gap: 30px;
 }
 
+.riaadQuestion{
+    display: flex;
+    gap: 40px;
+  margin-top: -90px;
+  color: white;
+  margin-left: 20px;
+
+}
+
+#chooseArrow{
+    margin-top: 18px;
+}
+#riaadlink{
+    color: orange;
+}
+
+#chooseRiaad-content{
+    position: absolute;
+    background-color: white;
+    margin-top: -380px;
+    margin-left: 100px;
+    padding: 50px;
+    
+}
+#riaadImage{
+    background-color: blue;
+    padding-right: 50px;
+    padding-bottom: 100px;
+
+
+}
+
+
 .contactUs{
     text-align: center;
-    margin: 60px;
+    margin: 100px;
 }
 #contactUs-link{
     color: orange;
 }
-
-.playVideo{
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url(https://d32ijn7u0aqfv4.cloudfront.net/wp/wp-content/uploads/raw/SOBK0722019_780x440_mobile.jpeg);
-    width: 100vw;
-    height: 40vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: -1;
-}
-
-.playIcon{
-    font-size: 40px;
-    background-color: orange;
-}
-
-
-.freeQuote{
-    display: flex;
+.contact{
+    width: 100%;
+    margin: 0 auto;
+    .video-container{
+        background: url('images/couple.webp') no-repeat center center;
+        background-size: cover;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        button{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px 40px;
+            border-radius: 50%;
+            background-color: #F9A825;
+            border: none;
+            color: #fff;
+            font-size: 24px;
+            i{
+                font-size: 30px;
+                color: #fff;
+            }
+        }
+    }
+    .yellow-container {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        /* height: 500px; */
+        /* width: 1000px; */
+        background-color: #fff;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .left-section {
+        background-color: #F9A825;
+        padding: 20px;
+        flex: 1;
+        width: 250px;
+    }
+    .left-section P {
+        color: #fff;
+        margin-top: 100px;
+        font-size: 15px;
+        text-decoration: underline;
+        margin-left: 150px;
+        gap: 40px
+    }
+    .left-section h2 {
+        color: #fff;
+        font-size: 30px;
+        margin-left: 150px;
+        right: 80px;
+    }
+    .right-section {
+        background-color: #1976D2;
+        padding: 20px;
+        flex: 1.5;
+    }
+    .quote-form {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+    .form-group {
+        width: calc(50% - 10px);
+        margin-bottom: 5px;
+    }
+    .form-group label {
+        display: block;
+        color: #fff;
+    }
+   
+       
     
-    margin-top: 0px;
-    justify-content: center;
-}
-.freeQuote-bookNow{
-     background-color: orange;
-     width: 700px;
-     color: white;
-     text-align: center;
-     padding-top: 80px;
-     font-size: 30px;
-     padding-left: 200px;
-     
-}
-
-
-#freeQuote-link{
-    color: white;
-}
-
-
-.freeQuote-fillForm{
-    background-color: blue;
-    width: 80%;
-    padding: 200px;
+    .form-group input {
+        width: calc(100% - 10px);
+        padding: 8px;
+        border-radius: 4px;
+        width: 85%;
+        margin-bottom: 10px;
+    }
+    .submit-btn {
+        background-color: #FFB74D;
     
+        height: 40px;
+        width: 200px;
+        margin-top: 20px;
+    }
 }
 
-#freeQuote-toLabel, #freeQuote-home-sizelabel, #freeQuote-dateLabel{
-   display: flex;
-   gap: 30px;
 
-}
 .testimonials{
-margin-top: 100px;
+    margin-top: 200px;
 
 }
 #customerIcon{
@@ -453,23 +565,7 @@ margin-top: 100px;
 }
 
 
-.hr-lines{
-    position: relative;
-    max-width: 1200px;
-    margin: 10px auto;
-    
-  }
-  
-  .hr-lines:before{
-    content:" ";
-    height: 2px;
-    width: 800px;
-    background: red;
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 20;
-  }
+
   
 .footer-lines{
     display: flex;
