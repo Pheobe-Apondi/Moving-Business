@@ -1,6 +1,7 @@
 body{
     margin: 0 auto;
     padding: 0px;
+    overflow: hidden;
 
 }
 
@@ -389,7 +390,7 @@ a{
         flex-wrap: wrap;
         margin-top: 60px;
     }
-    .form-group {
+    .fill-form {
         width: calc(50% - 10px);
         margin-bottom: 5px;
     }
