@@ -1,7 +1,8 @@
 body{
     margin: 0 auto;
     padding: 0px;
-    overflow: hidden;
+    overflow-x: hidden;
+    
 
 }
 
@@ -106,24 +107,20 @@ a{
     text-align: center;
 }
 
-#hero-previous{
-     
-     margin-left: -700px;
-     position: absolute;
-     margin-top: 200px;
+.navigateArrows{
+    display: flex;
+    gap: 900px;
+    justify-content: center;
+    
+    
+}
+
+  #hero-previous,#hero-next{
      font-size: 100px;
 }
 
-#hero-next{
-  font-size: 100px;
-  margin-right: -600px;
 
 
-
-  
-  
-
-}
 
 .hero-Button{
     background-color: orange;
@@ -344,14 +341,36 @@ a{
 #contactUs-link{
     color: orange;
 }
+
+
+.watchVideo{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.storageking.co.uk/media/2aap1ab3/featured-image_moving-in-together-101.jpg?width=480&height=0&format=webp&quality=70&v=1daf46aa5652170);
+    width: 100vw;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+     
+}   
+
+#watchVideo-button{
+    font-size: 30px;
+    margin-top: 350px;
+    margin-left: 850px;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 100px;
+    
+    
+
+}
+
 .getInTouch{
     width: 100%;
     margin: 0 auto;
 }
-
-
-        
-    
+ 
     .yellow-container {
         display: flex;
         width: 100%;
