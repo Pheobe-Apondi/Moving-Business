@@ -1,7 +1,7 @@
 body{
     margin: 0 auto;
     padding: 0px;
-    margin-bottom: 60px;
+
 }
 
 
@@ -234,9 +234,258 @@ body{
 
 .chooseRiaad{
     display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contactUs{
+    text-align: center;
+    margin: 60px;
+}
+#contactUs-link{
+    color: orange;
+}
+
+.playVideo{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url(https://d32ijn7u0aqfv4.cloudfront.net/wp/wp-content/uploads/raw/SOBK0722019_780x440_mobile.jpeg);
+    width: 100vw;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.playIcon{
+    font-size: 40px;
+    background-color: orange;
 }
 
 
+.freeQuote{
+    display: flex;
+    
+    margin-top: 0px;
+    justify-content: center;
+}
+.freeQuote-bookNow{
+     background-color: orange;
+     width: 700px;
+     color: white;
+     text-align: center;
+     padding-top: 80px;
+     font-size: 30px;
+     padding-left: 200px;
+     
+}
+
+
+#freeQuote-link{
+    color: white;
+}
+
+
+.freeQuote-fillForm{
+    background-color: blue;
+    width: 80%;
+    padding: 200px;
+    
+}
+
+#freeQuote-toLabel, #freeQuote-home-sizelabel, #freeQuote-dateLabel{
+   display: flex;
+   gap: 30px;
+
+}
+.testimonials{
+margin-top: 100px;
+
+}
+#customerIcon{
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.testimonials-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#testimonialscontent{
+    text-align: center;
+}
+
+.customerstestimonials{
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   gap: 80px;
+   
+
+}
+#customerIdentity{
+    text-align: center;
+}
+
+#customerImage{
+    margin-left: 150px;
+}
+.newsletter{
+    justify-items: center;
+    margin: 100px;
+    
+    
+}
+
+.newsletter-heading{
+  margin-bottom: 80px;
+
+}
+#newsletter-link{
+    color: orange;
+}
+
+#email{
+   width: 300px;
+   padding: 30px;
+   border: none;
+
+}
+#newsletter-button{
+    color: white;
+    background-color: orange;
+    padding: 30px;
+    border: none;
+}
+.blog-heading{
+    text-align: center;
+    margin: 100px;
+}
+#blog-link{
+    color: orange;
+}
+.blog-articles{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.blog-entertainmentImage{
+  width: 80%;
+  height: 80%;
+ 
+  
+
+}
+
+.blog-content{
+    position: absolute;
+   margin-top: -230px;
+   color: white;
+   margin-left: 30px;
+
+}
+
+#blog-contentHeadingHome{
+     width: 180px;
+
+}
+
+#blog-contentHeadingChoice{
+    width: 250px;
+
+}
+
+#blog-contentHeadingBoomer{
+    width: 250px;
+
+}
+
+#blog-admin{
+    color: grey;
+}
+.discover{
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+   background-color: orange;
+  height: 300px;
+}
+
+#discover-button{
+    background-color: black;
+    color: white;
+    margin: 100px auto;
+    padding: 5px auto;
+    width: 300px;
+
+
+}
+#discover-content{
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+.footer-section{
+    height: 600px;
+    background-color: black;
+    color: white;
+    
+
+}
+.footer-sectionContent{
+    display: flex;
+    
+    font-size: 30px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footerIcons{
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+    
+}
+
+
+.hr-lines{
+    position: relative;
+    max-width: 1200px;
+    margin: 10px auto;
+    
+  }
+  
+  .hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 800px;
+    background: red;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 20;
+  }
+  
+.footer-lines{
+    display: flex;
+    
+}
+
+#footer-arrow{
+    font-size: 30px;
+    transform: rotate(-90deg);
+    margin-right: 300px;
+
+}
+#footer-copyrights{
+   text-align: center;
+
+}
 @media only screen and (min-width:375px) {
     .header-section-FreeConsultation{
         padding: 5px;
@@ -250,6 +499,7 @@ body{
 
 @media only screen and (min-width:768px) {
     .header-section-FreeConsultation{
+        display: flex;
    
         
     
