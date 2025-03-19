@@ -77,7 +77,7 @@ a{
     color: orange;
 }
 .hero{
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(https://premierevanlines.com/wp-content/uploads/2022/02/Moving-out-Checklist-copy.jpg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(https://img.freepik.com/free-photo/young-couple-moving-new-home-together-african-american-couple-with-cardboard-boxes_1157-40348.jpg?t=st=1742352801~exp=1742356401~hmac=175f25d0148b45a5083136868dddee817eb5f2e7763422a65f69437012c9bed7&w=996);
     width: 100vw;
     height: 80vh;
     background-position: center;
@@ -107,19 +107,6 @@ a{
     text-align: center;
 }
 
-.navigateArrows{
-    display: flex;
-    gap: 900px;
-    justify-content: center;
-    
-    
-}
-
-  #hero-previous,#hero-next{
-     font-size: 100px;
-}
-
-
 
 
 .hero-Button{
@@ -139,22 +126,27 @@ a{
 
 }
 
+.image-frame{
+    width: 30%;
+    height: 40%;
+    border: solid 20px rgb(35, 35, 143);
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 110px;
+
+
+
+}
+
 .aboutUs-leftside{
     margin-left: 100px;
     
     
 
 }
-.aboutUs-image{
-    width: 50%;
-}
 
-#aboutUs-rightside{
-    
 
-    
- 
-}
+
 
 #aboutUs-Link {
     color: orange;
@@ -179,9 +171,7 @@ a{
     gap: 20px;
 }
 
-.aboutUs-frameImage{
-   
-}
+
 
 .ipsumlogos{
     display: flex;
@@ -194,6 +184,7 @@ a{
     text-align: center;
     margin-bottom: 100px;
 }
+
 .servicesCatalogue{
     display: flex;
     justify-content: center;
@@ -519,6 +510,10 @@ a{
 
 }
 
+.blog-Image{
+    filter: brightness(30%);
+}
+
 .blog-content{
     position: absolute;
    margin-top: -230px;
@@ -593,43 +588,319 @@ a{
 
 
 
-  
-.footer-lines{
-    display: flex;
-    
-}
+ 
 
-#footer-arrow{
-    font-size: 30px;
-    transform: rotate(-90deg);
-    margin-right: 300px;
-
-}
 #footer-copyrights{
    text-align: center;
 
 }
-@media only screen and (min-width:375px) {
-    .header-section-FreeConsultation{
-        padding: 5px;
-        
-    
-    }
-   
-    
+
       
+    
+@media only screen and (max-width:768px) {
+   
+    body{
+        width: 768px;
+        
+        
+    }
+    
+    
+
+    .header{
+        width: 100%;
     }
 
-@media only screen and (min-width:768px) {
-    .header-section-FreeConsultation{
-        display: flex;
-   
-        
+
+.header-FreeConsultation{
+    display: block;
+    text-align: center;
+    gap: 10px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 12px;
     
+    
+
+
+}
+#verification-tick{
+    display: none;
+}
+
+.contactInfo{
+    display: block;
+ 
+    font-size: 18px;
+}
+.contactInfo{
+    padding-left: 0px;
+}
+
+.contact-email{
+
+    display: flex;
+    gap: 30px;
+    margin-bottom: 70px;
+    padding-left: 40px;
+    
+
+}
+
+.contact-phone{
+    padding-left: 180px;
+}
+.navbar{
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+  
+    
+}
+.navbar a{
+    display: block;
+    padding-left: 10px;
+    background-color: #1976D2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar a:hover{
+    background-color: grey;
+    
+}
+
+.hero{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(https://img.freepik.com/free-photo/young-couple-moving-new-home-together-african-american-couple-with-cardboard-boxes_1157-40348.jpg?t=st=1742352801~exp=1742356401~hmac=175f25d0148b45a5083136868dddee817eb5f2e7763422a65f69437012c9bed7&w=996);
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#hero-heading{
+    width: 70%;
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+
+.aboutUs{
+    display: block;
+    margin-top: 100px;
+  
+    
+   
+
+}
+
+#aboutUs-Link{
+
+    font-size: 40px;
+    margin-left: 180px;
+    margin-bottom: 40px;
+}
+
+#aboutUs-heading{
+    font-size: 60px;
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+    
+    
+
+}
+#aboutUs-image{
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+
+.aboutUs-leftside{
+    margin-left: 10px;
+    
+    
+
+}
+
+#aboutUs-rightImage{
+    width: 80%;
+    margin-left: 50px;
+}
+
+
+
+.aboutUs-est{
+   display: block;
+   font-size: 25px;
+   width: 80%;
+   margin-left: 30px;
+   
+
+}
+
+.ipsumlogos{
+    display: flex;
+    justify-content: center;
+    margin: 150px 30px;
+    gap: 20px;
+}
+
+.services-Heading{
+    font-size: 80px;
+}
+      
+.servicesCatalogue{
+    display: block;
+    margin-left: 60px;
+    
+}
+
+.catalogue-Packing,.catalogue-Storage, .catalogue-Transport, .catalogue-Insurance{
+     
+    width: 80%;
+    height: 450px;
+    padding: 5px 40px;
+}
+
+
+#storageImage, #transportImage, #insuranceImage, #packingImage{
+    margin-left: 230px;
+    margin-top: 20px;
+}
+
+#storage-button, #insurance-button, #transport-button, #packing-button{
+    margin-left: 200px;
+}
+.our-Clients{
+   display: block;
+   margin-left: 10px;
+   
+
+}
+
+#videodescription{
+    font-size: 30px;
+}
+
+.chooseRiaad{
+    display: block;
+    margin-left: 40px;
+}
+#our-clientsHeading{
+    margin-left: 5px;
+    font-size: 80px;
+}
+
+.ourClients-video{
+      margin-left: 10px;
+
+}
+
+.riaadStats{
+   margin-top: 100px; 
+   font-size: 30px;
+}
+
+.contactUs{
+    font-size: 30px ;
+}
+#watchVideo-button{
+
+    margin-left: 350px;
+}
+
+.getInTouch{
+    font-size: 30px;
+}
+
+.customerstestimonials{
+    display: block;
+    font-size: 30px;
+}
+#customerIcon{
+    margin-left: 400px;
+}
+
+#customerImage{
+    margin-left: 380px;
+    margin-top: 20px;
+}
+
+.newsletter{
+    justify-items: center;
+    margin: 0px;
+    
+}
+    
+.newsletter-heading{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+  
+    
+}
+
+.blog-heading{
+    margin-top: 160px;
+    font-size: 30px;
+}
+
+.blog-articles{
+    display: block;
+}
+
+.blog-Image{
+    width: 100%;
+    height: 30%;
+   
+}
+.blog-content{
+    font-size: 30px;
+    margin-top: -400px;
+    
+}
+#blog-contentHeadingHome, #blog-contentHeadingChoice, #blog-contentHeadingBoomer{
+    width: 100%;
+}
+
+.footer-section{
+    display: block;
+    width: 100%;
+    height: 1500px;
+
+}
+.footer-sectionContent{
+    display: block;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.footerIcons{
+    justify-content: center;
+   margin-bottom: 100px;
+    margin-top: 80px;
+    gap: 40px;
+    
+}
+
+.footer-legal, .footer-explore{
+    margin-top: 80px;
+}
+.footer-copyrights{
+    text-align: center;
+    margin-top: 200px;
+    
+}
     }
 
-    
-      
-    }
 
  
